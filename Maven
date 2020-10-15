@@ -2,3 +2,8 @@
 
 M2_HOME:C:\apache-maven-3.1.0\apache-maven-3.1.0
 dir %M2_HOME%\bin\mvn*
+
+
+set M2_HOME=C:\maven\apache-maven-3.6.3
+set path=C:\maven\apache-maven-3.6.3\bin;%path%
+mvn clean test
