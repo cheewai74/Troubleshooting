@@ -1,0 +1,2 @@
+netstat -aon | find ":8080" | find "LISTENING"   : find PID using port 8080
+taskkill /F /PID pid_number
