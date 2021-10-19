@@ -1,0 +1,4 @@
+#Now if you are reading this because you already are in a "diverged" scenario due to such rebase, 
+#you can get back to the last commit from origin (i.e. in an un-diverged state) by using:
+
+git reset --hard origin/my_remote_tracking_branch
