@@ -1,0 +1,5 @@
+1. chkdsk /f, chkdsk /r
+2. sfc /scannow
+3. dism /Online /Cleanup-image /Restorehealth
+4. Winget upgrade --all
+5. mdsched
