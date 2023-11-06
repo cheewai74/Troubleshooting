@@ -4,3 +4,4 @@
 
 2. Docker Useful Commands
 * docker container ls
+* docker ps
