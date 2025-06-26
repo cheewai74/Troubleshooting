@@ -1,1 +1,8 @@
 git config http.postBuffer 524288000
+
+git clone --config http.postBuffer=524288000 --config core.compression=0 --config pack.windowMemory=10m --config pack.packSizeLimit=20m --config pack.threads=1 git@evtgit.zebra.com:evt/atf.git
+
+git clone --no-checkout git@evtgit.zebra.com:evt/atf.git 
+cd atf
+git checkout master
+
